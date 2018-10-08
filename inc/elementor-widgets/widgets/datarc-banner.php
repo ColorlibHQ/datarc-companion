@@ -174,7 +174,7 @@ class Datarc_Banner extends Widget_Base {
             'color_btnborder', [
                 'label'     => __( 'Button Border Color', 'datarc-companion' ),
                 'type'      => Controls_Manager::COLOR,
-                'default'   => '#fff',
+                'default'   => '#00ff8c',
                 'selectors' => [
                     '{{WRAPPER}} .primary-btn.banner-btn' => 'border-color: {{VALUE}};',
                 ],
@@ -184,7 +184,7 @@ class Datarc_Banner extends Widget_Base {
             'color_btnhovborder', [
                 'label'     => __( 'Button Hover Border Color', 'datarc-companion' ),
                 'type'      => Controls_Manager::COLOR,
-                'default'   => '#fff',
+                'default'   => '#00ff8c',
                 'selectors' => [
                     '{{WRAPPER}} .primary-btn.banner-btn:hover' => 'border-color: {{VALUE}};',
                 ],
@@ -194,7 +194,7 @@ class Datarc_Banner extends Widget_Base {
             'color_btnbg', [
                 'label'       => __( 'Button Background Color', 'datarc-companion' ),
                 'type'        => Controls_Manager::COLOR,
-                'default'     => '#fff',
+                'default'     => '',
                 'selectors'   => [
                     '{{WRAPPER}} .primary-btn.banner-btn' => 'background-color: {{VALUE}};',
                 ],
@@ -204,7 +204,7 @@ class Datarc_Banner extends Widget_Base {
             'color_btnhovbg', [
                 'label'     => __( 'Button Hover Background Color', 'datarc-companion' ),
                 'type'      => Controls_Manager::COLOR,
-                'default'   => '#fff',
+                'default'   => '#00ff8c',
                 'selectors' => [
                     '{{WRAPPER}} .primary-btn.banner-btn:hover' => 'background-color: {{VALUE}};',
                 ],
