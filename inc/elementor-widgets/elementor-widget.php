@@ -187,7 +187,6 @@ if ( !class_exists( 'Datarc_El_Widgets' ) ) {
             // Register Widget Styles
             add_action( 'admin_enqueue_scripts', [ $this, 'register_admin_styles' ] );
             add_action( 'elementor/frontend/after_enqueue_styles', [ $this, 'register_widget_styles' ] );
-            add_action( 'elementor/frontend/after_register_styles', [ $this, 'register_widget_styles' ] );
             add_action( 'elementor/editor/before_enqueue_scripts', [ $this, 'register_widget_styles' ] );
 
             // Register New Widgets
