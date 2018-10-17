@@ -130,77 +130,75 @@ if( !defined( 'WPINC' ) ){
     }
     add_filter( 'wpcf7_default_template', 'datarc_contact7_form_content', 10, 2 );
 
+    // Enqueue scripts
+    add_action( 'wp_enqueue_scripts', 'datarc_companion_frontend_scripts', 99 );
+    function datarc_companion_frontend_scripts() {
+
+        wp_enqueue_script( 'datarc-loadmore-script', plugins_url( '../js/loadmore-ajax.js', __FILE__ ), array( 'jquery' ), '1.0', true );
+
+    }
+
+    // 
+    add_action( 'wp_ajax_datarc_portfolio_ajax', 'datarc_portfolio_ajax' );
+    add_action( 'wp_ajax_nopriv_datarc_portfolio_ajax', 'datarc_portfolio_ajax' );
+
+    function datarc_portfolio_ajax( ){
+
+        ob_start();
+
+        if( !empty( $_POST['elsettings'] ) ):
 
 
-/**
- * Register a portfolio post type.
- *
- */
-add_action( 'init', 'datarc_componion_posttype_init' );
-function datarc_componion_posttype_init() {
-    $labels = array(
-        'name'               => __( 'Portfolios', 'datarc-companion' ),
-        'singular_name'      => __( 'Portfolio', 'datarc-companion' ),
-        'menu_name'          => __( 'Portfolios', 'datarc-companion' ),
-        'name_admin_bar'     => __( 'Portfolio', 'datarc-companion' ),
-        'add_new'            => __( 'Add New', 'datarc-companion' ),
-        'add_new_item'       => __( 'Add New Portfolio', 'datarc-companion' ),
-        'new_item'           => __( 'New Portfolio', 'datarc-companion' ),
-        'edit_item'          => __( 'Edit Portfolio', 'datarc-companion' ),
-        'view_item'          => __( 'View Portfolio', 'datarc-companion' ),
-        'all_items'          => __( 'All Portfolios', 'datarc-companion' ),
-        'search_items'       => __( 'Search Portfolios', 'datarc-companion' ),
-        'parent_item_colon'  => __( 'Parent Portfolios:', 'datarc-companion' ),
-        'not_found'          => __( 'No books found.', 'datarc-companion' ),
-        'not_found_in_trash' => __( 'No books found in Trash.', 'datarc-companion' )
-    );
+            $items = array_slice( $_POST['elsettings'], $_POST['postNumber'] );
 
-    $args = array(
-        'labels'             => $labels,
-        'description'        => __( 'Description.', 'datarc-companion' ),
-        'public'             => true,
-        'publicly_queryable' => false,
-        'show_ui'            => true,
-        'show_in_menu'       => true,
-        'query_var'          => true,
-        'rewrite'            => array( 'slug' => 'portfolio' ),
-        'capability_type'    => 'post',
-        'has_archive'        => true,
-        'hierarchical'       => false,
-        'menu_position'      => null,
-        'supports'           => array( 'title', 'thumbnail', 'excerpt'  )
-    );
+            $i = 0;
 
-    register_post_type( 'datarc-portfolio', $args );
+            foreach( $items as $val ):
 
+            $tagclass = sanitize_title_with_dashes( $val['label'] );
+            $i++;
 
-    // Add new taxonomy, make it hierarchical (like categories)
-    $labels = array(
-        'name'              => _x( 'Portfolio Categories', 'taxonomy general name', 'datarc-companion' ),
-        'singular_name'     => _x( 'Portfolio Category', 'taxonomy singular name', 'datarc-companion' ),
-        'search_items'      => __( 'Search Genres', 'datarc-companion' ),
-        'all_items'         => __( 'All Portfolio Categories', 'datarc-companion' ),
-        'parent_item'       => __( 'Parent Category', 'datarc-companion' ),
-        'parent_item_colon' => __( 'Parent Category:', 'datarc-companion' ),
-        'edit_item'         => __( 'Edit Category', 'datarc-companion' ),
-        'update_item'       => __( 'Update Category', 'datarc-companion' ),
-        'add_new_item'      => __( 'Add New Category', 'datarc-companion' ),
-        'new_item_name'     => __( 'New Category Name', 'datarc-companion' ),
-        'menu_name'         => __( 'Portfolio Categories', 'datarc-companion' ),
-    );
+            $imgUrl = !empty( $val['img']['url'] ) ? $val['img']['url'] : '';
+        ?>
+        <div class="mix <?php echo esc_attr( $tagclass ); ?> item-removable col-lg-3 col-md-4 col-sm-6 single-filter-content content-1" data-myorder="1" style="background-image: url( <?php echo esc_url( $imgUrl ); ?> )">
+            <div class="overlay overlay-bg-content d-flex align-items-center justify-content-center flex-column">
+                <?php 
+                if( !empty( $val['sub-title'] ) ){
 
-    $args = array(
-        'hierarchical'      => true,
-        'labels'            => $labels,
-        'show_ui'           => true,
-        'show_admin_column' => true,
-        'query_var'         => true,
-        'rewrite'           => array( 'slug' => 'portfolio-categories' ),
-    );
+                    echo datarc_paragraph_tag(
+                        array(
+                            'text' => esc_html( $val['sub-title'] )
+                        )
+                    );
+                }
+                ?>
+                <div class="line"></div>
+                <?php 
+                if( !empty( $val['title'] ) ){
+                    echo datarc_heading_tag(
+                        array(
+                            'tag'    => 'h5',
+                            'class'  => 'text-uppercase',
+                            'text'   => esc_html( $val['title'] )
+                        )
+                    );
+                }
+                ?>
+            </div>
+        </div>
 
-    register_taxonomy( 'datarc-portfolio-categories', array( 'datarc-portfolio' ), $args );
+        <?php 
 
+        if( !empty( $_POST['postIncrNumber'] ) ){
 
-}
+            if( $i == $_POST['postIncrNumber'] ){
+                break;
+            }
+        }
+            endforeach;
+        endif;
+        echo ob_get_clean();
+        die();
+    }
 
 ?>

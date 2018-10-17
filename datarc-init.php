@@ -17,7 +17,6 @@ require_once DATARC_COMPANION_SW_DIR_PATH . 'instagram-widget.php';
 // Include Files
 require_once DATARC_COMPANION_INC_DIR_PATH . 'functions.php';
 require_once DATARC_COMPANION_INC_DIR_PATH . 'instagram-api.php';
-require_once DATARC_COMPANION_INC_DIR_PATH . 'portfolio-shortcode.php';
 require_once DATARC_COMPANION_EW_DIR_PATH  . 'elementor-widget.php';
 
 // Demo import include

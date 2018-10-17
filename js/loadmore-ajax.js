@@ -2,25 +2,27 @@
     'use strict';
 
     //  Portfolio load more button Ajax
-    
+
     var $loadbutton = $( '.loadAjax' );
+
     if( $loadbutton.length ){
-        
-        // When default max pages 1 remove load more button 
-        if( portfolioloadajax.max_pages == 1 ){
-            $loadbutton.remove();
-        }
+
+        var postNumber = portfolioloadajax.postNumber,
+            Incr = 0;
         //
         $loadbutton.on( 'click', function(){
-            
+
+
+            Incr = Incr + parseInt( postNumber) ;
+           
             var $button = $( this ),
                 $data;
            
             $data =  {
-                'action' : 'datarc_load_ajax',
-                'query'  : portfolioloadajax.posts,
-                'page'   : portfolioloadajax.current_page,
-                'postNumber'   : portfolioloadajax.postNumber
+                'action' : 'datarc_portfolio_ajax',
+                'postNumber'   : postNumber,
+                'postIncrNumber'   : Incr,
+                'elsettings'   : portfolioloadajax.elsettings
             };
            
             $.ajax({
@@ -28,44 +30,22 @@
                 url  : portfolioloadajax.action_url,
                 data : $data,
                 type : 'POST',
-                beforeSend : function( xhr ){
-                    
-                    $button.text( portfolioloadajax.btnLodingLabel );
-                    
-                },
+
                 success: function( data ){
 
-                    var $dataload = $('.dataload'),
-                        $portfolioItems = $dataload.parent('.datarc-portfolio');
-                    if( data ) {
-                        // insert new posts
-                        $dataload.before(data);
-                        // increment page
-                        portfolioloadajax.current_page++;
-                        
-                        if ( $portfolioItems.length ) {
-                            setTimeout(function () {
-                                $portfolioItems.isotope('reloadItems').isotope({
-                                    animationEngine: 'best-available',
-                                    itemSelector: '.single_gallery_item'
-                                });
-                            }, 300);
-                        }
-                        
-                        
-                        // Change Button text From loading
-                        $button.text( portfolioloadajax.btnLabel ); 
-                        
-                        // if last page, remove the button                          
-                        if ( portfolioloadajax.current_page == portfolioloadajax.max_pages ){
-                            $button.remove(); 
-                        } 
-                        
-                    } else {
-                        // if no data, remove the button as well
-                        $button.remove(); 
+                    $( '.item-removable' ).remove();
+                    $( '.datarc-portfolio-load' ).before( data );
+                    //$( '.datarc-portfolio-load' ).after();
+
+                    mixitup( '#filter-content' ).forceRefresh();
+
+                    var loaditems = parseInt( Incr ) + parseInt( postNumber );
+
+                    if( portfolioloadajax.totalitems <= loaditems  ){
+
+                        $button.hide();
                     }
-                        
+    
                 }
                 
             });
