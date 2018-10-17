@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.9.8" created="2018-09-05 04:16" -->
+<!-- generator="WordPress/4.9.8" created="2018-10-17 07:08" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Datarc</title>
 	<link>http://spondan.com/datarc</link>
 	<description>My WordPress Blog</description>
-	<pubDate>Wed, 05 Sep 2018 04:16:06 +0000</pubDate>
+	<pubDate>Wed, 17 Oct 2018 07:08:39 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://spondan.com/datarc</wp:base_site_url>
@@ -43,48 +43,6 @@
 		<wp:category_parent><![CDATA[]]></wp:category_parent>
 		<wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name>
 	</wp:category>
-	<wp:term>
-		<wp:term_id><![CDATA[4]]></wp:term_id>
-		<wp:term_taxonomy><![CDATA[datarc-portfolio-categories]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[branding]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Branding]]></wp:term_name>
-	</wp:term>
-	<wp:term>
-		<wp:term_id><![CDATA[3]]></wp:term_id>
-		<wp:term_taxonomy><![CDATA[datarc-portfolio-categories]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[categories]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Categories]]></wp:term_name>
-	</wp:term>
-	<wp:term>
-		<wp:term_id><![CDATA[6]]></wp:term_id>
-		<wp:term_taxonomy><![CDATA[datarc-portfolio-categories]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[creative-work]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Creative Work]]></wp:term_name>
-	</wp:term>
-	<wp:term>
-		<wp:term_id><![CDATA[5]]></wp:term_id>
-		<wp:term_taxonomy><![CDATA[datarc-portfolio-categories]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[image-manipulation]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Image Manipulation]]></wp:term_name>
-	</wp:term>
-	<wp:term>
-		<wp:term_id><![CDATA[8]]></wp:term_id>
-		<wp:term_taxonomy><![CDATA[datarc-portfolio-categories]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[print-material]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Print Material]]></wp:term_name>
-	</wp:term>
-	<wp:term>
-		<wp:term_id><![CDATA[7]]></wp:term_id>
-		<wp:term_taxonomy><![CDATA[datarc-portfolio-categories]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[web-design]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Web Design]]></wp:term_name>
-	</wp:term>
 	<wp:term><wp:term_id>9</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[one-page-menu]]></wp:term_slug><wp:term_name><![CDATA[One Page Menu]]></wp:term_name>
 </wp:term>
 	<wp:term><wp:term_id>10</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[primary-menu]]></wp:term_slug><wp:term_name><![CDATA[Primary Menu]]></wp:term_name>
@@ -662,7 +620,7 @@
 	</item>
 	<item>
 		<title>c6</title>
-		<link>http://spondan.com/datarc/portfolio/creative-tangerine/c6/</link>
+		<link>http://spondan.com/datarc/c6/</link>
 		<pubDate>Tue, 04 Sep 2018 06:40:25 +0000</pubDate>
 		<dc:creator><![CDATA[spndev]]></dc:creator>
 		<guid isPermaLink="false">http://spondan.com/datarc/wp-content/uploads/2018/09/c6.jpg</guid>
@@ -693,7 +651,7 @@
 	</item>
 	<item>
 		<title>c4</title>
-		<link>http://spondan.com/datarc/portfolio/creative-tangerine-3/c4/</link>
+		<link>http://spondan.com/datarc/c4/</link>
 		<pubDate>Tue, 04 Sep 2018 06:42:07 +0000</pubDate>
 		<dc:creator><![CDATA[spndev]]></dc:creator>
 		<guid isPermaLink="false">http://spondan.com/datarc/wp-content/uploads/2018/09/c4.jpg</guid>
@@ -943,134 +901,8 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>CREATIVE TANGERINE</title>
-		<link>http://spondan.com/datarc/portfolio/creative-tangerine/</link>
-		<pubDate>Tue, 04 Sep 2018 06:40:30 +0000</pubDate>
-		<dc:creator><![CDATA[spndev]]></dc:creator>
-		<guid isPermaLink="false">http://spondan.com/datarc/?post_type=datarc-portfolio&#038;p=213</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[Image Manipulation]]></excerpt:encoded>
-		<wp:post_id>213</wp:post_id>
-		<wp:post_date><![CDATA[2018-09-04 06:40:30]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-09-04 06:40:30]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[creative-tangerine]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[datarc-portfolio]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="datarc-portfolio-categories" nicename="print-material"><![CDATA[Print Material]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[214]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>CREATIVE TANGERINE</title>
-		<link>http://spondan.com/datarc/portfolio/creative-tangerine-2/</link>
-		<pubDate>Tue, 04 Sep 2018 06:41:17 +0000</pubDate>
-		<dc:creator><![CDATA[spndev]]></dc:creator>
-		<guid isPermaLink="false">http://spondan.com/datarc/?post_type=datarc-portfolio&#038;p=215</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[Image Manipulation]]></excerpt:encoded>
-		<wp:post_id>215</wp:post_id>
-		<wp:post_date><![CDATA[2018-09-04 06:41:17]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-09-04 06:41:17]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[creative-tangerine-2]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[datarc-portfolio]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="datarc-portfolio-categories" nicename="print-material"><![CDATA[Print Material]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[214]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>CREATIVE TANGERINE</title>
-		<link>http://spondan.com/datarc/portfolio/creative-tangerine-3/</link>
-		<pubDate>Tue, 04 Sep 2018 06:42:12 +0000</pubDate>
-		<dc:creator><![CDATA[spndev]]></dc:creator>
-		<guid isPermaLink="false">http://spondan.com/datarc/?post_type=datarc-portfolio&#038;p=216</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[Image Manipulation]]></excerpt:encoded>
-		<wp:post_id>216</wp:post_id>
-		<wp:post_date><![CDATA[2018-09-04 06:42:12]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-09-04 06:42:12]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[creative-tangerine-3]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[datarc-portfolio]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="datarc-portfolio-categories" nicename="branding"><![CDATA[Branding]]></category>
-		<category domain="datarc-portfolio-categories" nicename="print-material"><![CDATA[Print Material]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[217]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>CREATIVE TANGERINE</title>
-		<link>http://spondan.com/datarc/portfolio/creative-tangerine-4/</link>
-		<pubDate>Tue, 04 Sep 2018 06:43:33 +0000</pubDate>
-		<dc:creator><![CDATA[spndev]]></dc:creator>
-		<guid isPermaLink="false">http://spondan.com/datarc/?post_type=datarc-portfolio&#038;p=218</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[Image Manipulation]]></excerpt:encoded>
-		<wp:post_id>218</wp:post_id>
-		<wp:post_date><![CDATA[2018-09-04 06:43:33]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-09-04 06:43:33]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[creative-tangerine-4]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[datarc-portfolio]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="datarc-portfolio-categories" nicename="creative-work"><![CDATA[Creative Work]]></category>
-		<category domain="datarc-portfolio-categories" nicename="web-design"><![CDATA[Web Design]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[219]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>c5</title>
-		<link>http://spondan.com/datarc/portfolio/creative-tangerine-4/c5/</link>
+		<link>http://spondan.com/datarc/c5/</link>
 		<pubDate>Tue, 04 Sep 2018 06:43:28 +0000</pubDate>
 		<dc:creator><![CDATA[spndev]]></dc:creator>
 		<guid isPermaLink="false">http://spondan.com/datarc/wp-content/uploads/2018/09/c5.jpg</guid>
@@ -1100,39 +932,8 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>CREATIVE TANGERINE</title>
-		<link>http://spondan.com/datarc/portfolio/creative-tangerine-5/</link>
-		<pubDate>Tue, 04 Sep 2018 06:44:09 +0000</pubDate>
-		<dc:creator><![CDATA[spndev]]></dc:creator>
-		<guid isPermaLink="false">http://spondan.com/datarc/?post_type=datarc-portfolio&#038;p=220</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[Image Manipulation]]></excerpt:encoded>
-		<wp:post_id>220</wp:post_id>
-		<wp:post_date><![CDATA[2018-09-04 06:44:09]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-09-04 06:44:09]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[creative-tangerine-5]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[datarc-portfolio]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="datarc-portfolio-categories" nicename="web-design"><![CDATA[Web Design]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[221]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>c3</title>
-		<link>http://spondan.com/datarc/portfolio/creative-tangerine-5/c3/</link>
+		<link>http://spondan.com/datarc/c3/</link>
 		<pubDate>Tue, 04 Sep 2018 06:44:05 +0000</pubDate>
 		<dc:creator><![CDATA[spndev]]></dc:creator>
 		<guid isPermaLink="false">http://spondan.com/datarc/wp-content/uploads/2018/09/c3.jpg</guid>
@@ -1162,39 +963,8 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>CREATIVE TANGERINE</title>
-		<link>http://spondan.com/datarc/portfolio/creative-tangerine-6/</link>
-		<pubDate>Tue, 04 Sep 2018 06:45:15 +0000</pubDate>
-		<dc:creator><![CDATA[spndev]]></dc:creator>
-		<guid isPermaLink="false">http://spondan.com/datarc/?post_type=datarc-portfolio&#038;p=222</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[Image Manipulation]]></excerpt:encoded>
-		<wp:post_id>222</wp:post_id>
-		<wp:post_date><![CDATA[2018-09-04 06:45:15]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-09-04 06:45:15]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[creative-tangerine-6]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[datarc-portfolio]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="datarc-portfolio-categories" nicename="web-design"><![CDATA[Web Design]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[223]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>c2</title>
-		<link>http://spondan.com/datarc/portfolio/creative-tangerine-6/c2/</link>
+		<link>http://spondan.com/datarc/c2/</link>
 		<pubDate>Tue, 04 Sep 2018 06:45:08 +0000</pubDate>
 		<dc:creator><![CDATA[spndev]]></dc:creator>
 		<guid isPermaLink="false">http://spondan.com/datarc/wp-content/uploads/2018/09/c2.jpg</guid>
@@ -1224,39 +994,8 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>CREATIVE TANGERINE</title>
-		<link>http://spondan.com/datarc/portfolio/creative-tangerine-7/</link>
-		<pubDate>Tue, 04 Sep 2018 06:46:38 +0000</pubDate>
-		<dc:creator><![CDATA[spndev]]></dc:creator>
-		<guid isPermaLink="false">http://spondan.com/datarc/?post_type=datarc-portfolio&#038;p=224</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[Image Manipulation]]></excerpt:encoded>
-		<wp:post_id>224</wp:post_id>
-		<wp:post_date><![CDATA[2018-09-04 06:46:38]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-09-04 06:46:38]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[creative-tangerine-7]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[datarc-portfolio]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="datarc-portfolio-categories" nicename="creative-work"><![CDATA[Creative Work]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[225]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>c7</title>
-		<link>http://spondan.com/datarc/portfolio/creative-tangerine-7/c7/</link>
+		<link>http://spondan.com/datarc/c7/</link>
 		<pubDate>Tue, 04 Sep 2018 06:46:34 +0000</pubDate>
 		<dc:creator><![CDATA[spndev]]></dc:creator>
 		<guid isPermaLink="false">http://spondan.com/datarc/wp-content/uploads/2018/09/c7.jpg</guid>
@@ -1283,37 +1022,6 @@
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:480;s:6:"height";i:350;s:4:"file";s:14:"2018/09/c7.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:14:"c7-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:14:"c7-300x219.jpg";s:5:"width";i:300;s:6:"height";i:219;s:9:"mime-type";s:10:"image/jpeg";}s:24:"datarc_widget_post_thumb";a:4:{s:4:"file";s:14:"c7-370x277.jpg";s:5:"width";i:370;s:6:"height";i:277;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>CREATIVE TANGERINE</title>
-		<link>http://spondan.com/datarc/portfolio/creative-tangerine-8/</link>
-		<pubDate>Tue, 04 Sep 2018 06:56:19 +0000</pubDate>
-		<dc:creator><![CDATA[spndev]]></dc:creator>
-		<guid isPermaLink="false">http://spondan.com/datarc/?post_type=datarc-portfolio&#038;p=227</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[Image Manipulation]]></excerpt:encoded>
-		<wp:post_id>227</wp:post_id>
-		<wp:post_date><![CDATA[2018-09-04 06:56:19]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-09-04 06:56:19]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[creative-tangerine-8]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[datarc-portfolio]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="datarc-portfolio-categories" nicename="branding"><![CDATA[Branding]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[221]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1537,6 +1245,350 @@
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>SERVICES</title>
+		<link>http://spondan.com/datarc/2018/09/04/services/</link>
+		<pubDate>Tue, 04 Sep 2018 09:54:01 +0000</pubDate>
+		<dc:creator><![CDATA[spndev]]></dc:creator>
+		<guid isPermaLink="false">http://spondan.com/datarc/?p=239</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>239</wp:post_id>
+		<wp:post_date><![CDATA[2018-09-04 09:54:01]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-09-04 09:54:01]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[services]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="one-page-menu"><![CDATA[One Page Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[239]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[#service-section]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>HOME</title>
+		<link>http://spondan.com/datarc/2018/09/04/home/</link>
+		<pubDate>Tue, 04 Sep 2018 09:54:01 +0000</pubDate>
+		<dc:creator><![CDATA[spndev]]></dc:creator>
+		<guid isPermaLink="false">http://spondan.com/datarc/?p=240</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>240</wp:post_id>
+		<wp:post_date><![CDATA[2018-09-04 09:54:01]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-09-04 09:54:01]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="one-page-menu"><![CDATA[One Page Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[240]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[#header-section]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://spondan.com/datarc/2018/09/04/249/</link>
+		<pubDate>Tue, 04 Sep 2018 10:08:57 +0000</pubDate>
+		<dc:creator><![CDATA[spndev]]></dc:creator>
+		<guid isPermaLink="false">http://spondan.com/datarc/?p=249</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>249</wp:post_id>
+		<wp:post_date><![CDATA[2018-09-04 10:08:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-09-04 10:08:57]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[249]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[10]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://spondan.com/datarc/2018/09/04/250/</link>
+		<pubDate>Tue, 04 Sep 2018 10:08:57 +0000</pubDate>
+		<dc:creator><![CDATA[spndev]]></dc:creator>
+		<guid isPermaLink="false">http://spondan.com/datarc/?p=250</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>250</wp:post_id>
+		<wp:post_date><![CDATA[2018-09-04 10:08:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-09-04 10:08:57]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[250]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[233]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>laptop-3196481_1280</title>
+		<link>http://spondan.com/datarc/2018/08/30/hello-world/laptop-3196481_1280/</link>
+		<pubDate>Tue, 16 Oct 2018 11:44:29 +0000</pubDate>
+		<dc:creator><![CDATA[spndev]]></dc:creator>
+		<guid isPermaLink="false">http://spondan.com/datarc/wp-content/uploads/2018/08/laptop-3196481_1280.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>254</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-16 11:44:29]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-16 11:44:29]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[laptop-3196481_1280]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>1</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[http://spondan.com/datarc/wp-content/uploads/2018/08/laptop-3196481_1280.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2018/08/laptop-3196481_1280.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:31:"2018/08/laptop-3196481_1280.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:31:"laptop-3196481_1280-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:31:"laptop-3196481_1280-300x200.jpg";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:31:"laptop-3196481_1280-768x512.jpg";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:32:"laptop-3196481_1280-1024x682.jpg";s:5:"width";i:1024;s:6:"height";i:682;s:9:"mime-type";s:10:"image/jpeg";}s:24:"datarc_widget_post_thumb";a:4:{s:4:"file";s:31:"laptop-3196481_1280-370x277.jpg";s:5:"width";i:370;s:6:"height";i:277;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>cafe-768771_1280</title>
+		<link>http://spondan.com/datarc/2018/06/11/black-friday-guide-best-sales-discount-codes-2/cafe-768771_1280/</link>
+		<pubDate>Tue, 16 Oct 2018 11:45:14 +0000</pubDate>
+		<dc:creator><![CDATA[spndev]]></dc:creator>
+		<guid isPermaLink="false">http://spondan.com/datarc/wp-content/uploads/2018/06/cafe-768771_1280.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>255</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-16 11:45:14]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-16 11:45:14]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cafe-768771_1280]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>186</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[http://spondan.com/datarc/wp-content/uploads/2018/06/cafe-768771_1280.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2018/06/cafe-768771_1280.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:28:"2018/06/cafe-768771_1280.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:28:"cafe-768771_1280-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:28:"cafe-768771_1280-300x200.jpg";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:28:"cafe-768771_1280-768x512.jpg";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:29:"cafe-768771_1280-1024x682.jpg";s:5:"width";i:1024;s:6:"height";i:682;s:9:"mime-type";s:10:"image/jpeg";}s:24:"datarc_widget_post_thumb";a:4:{s:4:"file";s:28:"cafe-768771_1280-370x277.jpg";s:5:"width";i:370;s:6:"height";i:277;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>men-1979261_1280</title>
+		<link>http://spondan.com/datarc/2018/06/11/the-white-sneakers-nearly-every-fashion-girls-own/men-1979261_1280/</link>
+		<pubDate>Tue, 16 Oct 2018 11:45:58 +0000</pubDate>
+		<dc:creator><![CDATA[spndev]]></dc:creator>
+		<guid isPermaLink="false">http://spondan.com/datarc/wp-content/uploads/2018/06/men-1979261_1280.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>256</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-16 11:45:58]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-16 11:45:58]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[men-1979261_1280]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>185</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[http://spondan.com/datarc/wp-content/uploads/2018/06/men-1979261_1280.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:28:"2018/06/men-1979261_1280.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:28:"men-1979261_1280-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:28:"men-1979261_1280-300x200.jpg";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:28:"men-1979261_1280-768x512.jpg";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:29:"men-1979261_1280-1024x682.jpg";s:5:"width";i:1024;s:6:"height";i:682;s:9:"mime-type";s:10:"image/jpeg";}s:24:"datarc_widget_post_thumb";a:4:{s:4:"file";s:28:"men-1979261_1280-370x277.jpg";s:5:"width";i:370;s:6:"height";i:277;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:3:"7.1";s:6:"credit";s:0:"";s:6:"camera";s:21:"Canon EOS 5D Mark III";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:2:"45";s:3:"iso";s:3:"200";s:13:"shutter_speed";s:7:"0.00625";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2018/06/men-1979261_1280.jpg]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>workplace-1245776_1280</title>
+		<link>http://spondan.com/datarc/2018/06/11/black-friday-guide-best-sales-discount-codes/workplace-1245776_1280/</link>
+		<pubDate>Tue, 16 Oct 2018 11:46:52 +0000</pubDate>
+		<dc:creator><![CDATA[spndev]]></dc:creator>
+		<guid isPermaLink="false">http://spondan.com/datarc/wp-content/uploads/2018/06/workplace-1245776_1280.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>257</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-16 11:46:52]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-16 11:46:52]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[workplace-1245776_1280]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>184</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[http://spondan.com/datarc/wp-content/uploads/2018/06/workplace-1245776_1280.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2018/06/workplace-1245776_1280.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:34:"2018/06/workplace-1245776_1280.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:34:"workplace-1245776_1280-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:34:"workplace-1245776_1280-300x200.jpg";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:34:"workplace-1245776_1280-768x512.jpg";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:35:"workplace-1245776_1280-1024x682.jpg";s:5:"width";i:1024;s:6:"height";i:682;s:9:"mime-type";s:10:"image/jpeg";}s:24:"datarc_widget_post_thumb";a:4:{s:4:"file";s:34:"workplace-1245776_1280-370x277.jpg";s:5:"width";i:370;s:6:"height";i:277;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>Lorem Ipsum has been the industry</title>
 		<link>http://spondan.com/datarc/2018/08/30/hello-world/</link>
 		<pubDate>Thu, 30 Aug 2018 09:03:27 +0000</pubDate>
@@ -1570,7 +1622,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[188]]></wp:meta_value>
+			<wp:meta_value><![CDATA[254]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>1</wp:comment_id>
@@ -1851,27 +1903,28 @@ This e-mail was sent from a contact form on Datarc (http://spondan.com/datarc)";
                                 <circle transform="rotate(-90, 100, 100)" cx="100" cy="100" r="95" />
                             </svg>
                     <p>WEB DEVELOPMENT</p>                
-    <section id="protfolio">
+			    <section id="protfolio">
                     <p>REMARKABLE WORKS</p><h2>We have gained reliability  to serve you best</h2>                
                     <a data-filter="all">All</a>
-                    <a data-filter=".branding">Branding</a><a data-filter=".creative-work">Creative Work</a><a data-filter=".print-material">Print Material</a><a data-filter=".web-design">Web Design</a>            
-                    <p>Image Manipulation</p>
-                    <h5>CREATIVE TANGERINE</h5>
-                    <p>Image Manipulation</p>
-                    <h5>CREATIVE TANGERINE</h5>
-                    <p>Image Manipulation</p>
-                    <h5>CREATIVE TANGERINE</h5>
-                    <p>Image Manipulation</p>
-                    <h5>CREATIVE TANGERINE</h5>
-                    <p>Image Manipulation</p>
-                    <h5>CREATIVE TANGERINE</h5>
-                    <p>Image Manipulation</p>
-                    <h5>CREATIVE TANGERINE</h5>
-                    <p>Image Manipulation</p>
-                    <h5>CREATIVE TANGERINE</h5>
-                    <p>Image Manipulation</p>
-                    <h5>CREATIVE TANGERINE</h5>
-    </section>
+                    <a data-filter=".categories">Categories</a><a data-filter=".branding">Branding</a><a data-filter=".image-manipulation">Image Manipulation</a><a data-filter=".creative-work">Creative Work</a>            
+                    <p>Image Manipulation</p>                    
+                    <h5>CREATIVE TANGERINE</h5>                
+                    <p>Image Manipulation</p>                    
+                    <h5>CREATIVE TANGERINE</h5>                
+                    <p>Image Manipulation</p>                    
+                    <h5>CREATIVE TANGERINE</h5>                
+                    <p>Image Manipulation</p>                    
+                    <h5>CREATIVE TANGERINE</h5>                
+                    <p>Image Manipulation</p>                    
+                    <h5>CREATIVE TANGERINE</h5>                
+                    <p>Image Manipulation</p>                    
+                    <h5>CREATIVE TANGERINE</h5>                
+                    <p>Image Manipulation</p>                    
+                    <h5>CREATIVE TANGERINE</h5>                
+                    <p>Image Manipulation</p>                    
+                    <h5>CREATIVE TANGERINE</h5>                
+                        <spn></spn>
+                </section>
     <section id="team">
                     <p>CREATIVE PEOPLE</p><h2>Team work builds trust and  trust builds growth</h2>                
                                 <p>This article is floated online with an aim to help you find the best dvd printing solution. Dvd</p>                                
@@ -1919,7 +1972,7 @@ This e-mail was sent from a contact form on Datarc (http://spondan.com/datarc)";
 			    <section id="blog">
                     <p>LATEST FROM BLOG</p><h2>Publish what you want to  not requires social</h2>                
                     <!-- Block3 -->
-                        <img width="263" height="180" src="http://spondan.com/datarc/wp-content/uploads/2018/08/p1.jpg" alt="" />                        
+                        <img width="370" height="277" src="http://spondan.com/datarc/wp-content/uploads/2018/08/laptop-3196481_1280-370x277.jpg" alt="" />                        
                                 <a href="http://spondan.com/datarc/2018/08/30/">August 30, 2018</a>
                                 |
                                 <a href="http://spondan.com/datarc/author/spndev/">By spndev</a>
@@ -1927,7 +1980,7 @@ This e-mail was sent from a contact form on Datarc (http://spondan.com/datarc)";
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into [&hellip;]</p>
                         <a href="http://spondan.com/datarc/2018/08/30/hello-world/">Details</a>
                     <!-- Block3 -->
-                        <img width="262" height="180" src="http://spondan.com/datarc/wp-content/uploads/2018/06/p2.jpg" alt="" />                        
+                        <img width="370" height="277" src="http://spondan.com/datarc/wp-content/uploads/2018/06/cafe-768771_1280-370x277.jpg" alt="" />                        
                                 <a href="http://spondan.com/datarc/2018/06/11/">June 11, 2018</a>
                                 |
                                 <a href="http://spondan.com/datarc/author/spndev/">By spndev</a>
@@ -1935,7 +1988,7 @@ This e-mail was sent from a contact form on Datarc (http://spondan.com/datarc)";
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into [&hellip;]</p>
                         <a href="http://spondan.com/datarc/2018/06/11/black-friday-guide-best-sales-discount-codes-2/">Details</a>
                     <!-- Block3 -->
-                        <img width="263" height="180" src="http://spondan.com/datarc/wp-content/uploads/2018/06/p3.jpg" alt="" />                        
+                        <img width="370" height="277" src="http://spondan.com/datarc/wp-content/uploads/2018/06/men-1979261_1280-370x277.jpg" alt="" />                        
                                 <a href="http://spondan.com/datarc/2018/06/11/">June 11, 2018</a>
                                 |
                                 <a href="http://spondan.com/datarc/author/spndev/">By spndev</a>
@@ -1943,7 +1996,7 @@ This e-mail was sent from a contact form on Datarc (http://spondan.com/datarc)";
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into [&hellip;]</p>
                         <a href="http://spondan.com/datarc/2018/06/11/the-white-sneakers-nearly-every-fashion-girls-own/">Details</a>
                     <!-- Block3 -->
-                        <img width="262" height="180" src="http://spondan.com/datarc/wp-content/uploads/2018/06/p4.jpg" alt="" />                        
+                        <img width="370" height="277" src="http://spondan.com/datarc/wp-content/uploads/2018/06/workplace-1245776_1280-370x277.jpg" alt="" />                        
                                 <a href="http://spondan.com/datarc/2018/06/11/">June 11, 2018</a>
                                 |
                                 <a href="http://spondan.com/datarc/author/spndev/">By spndev</a>
@@ -1958,7 +2011,7 @@ This e-mail was sent from a contact form on Datarc (http://spondan.com/datarc)";
 <h6>WEB CONTACT</h6><p><a href="tel:0000">012 (88) 017 25 656 565</a> <br /><a href="tel:0000">012 (88) 017 25 656 565</a></p>
 <form action="/datarc/wp-admin/admin-ajax.php#wpcf7-f8-o1" method="post" novalidate="novalidate">
 <input type="hidden" name="_wpcf7" value="8" />
-<input type="hidden" name="_wpcf7_version" value="5.0.3" />
+<input type="hidden" name="_wpcf7_version" value="5.0.4" />
 <input type="hidden" name="_wpcf7_locale" value="en_US" />
 <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f8-o1" />
 <input type="hidden" name="_wpcf7_container_post" value="0" />
@@ -2012,7 +2065,7 @@ This e-mail was sent from a contact form on Datarc (http://spondan.com/datarc)";
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
-			<wp:meta_value><![CDATA[[{"id":"36e7e92","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"e30a2c3","elType":"column","settings":{"_column_size":100},"elements":[{"id":"dad86b3","elType":"widget","settings":{"banner_titleone":"WE WORK HARD, WE RESULT PERFECT","banner_titletwo":"CRAFTING DIGITAL AGENCY EXPERIENCES","banner_btnlabel":"Explore Us","banner_btnurl":{"url":"#","is_external":"","nofollow":""},"banneroverlay_background":"gradient","banneroverlay_color":"rgba(60,64,143,0.95)","banneroverlay_color_b":"rgba(91,97,207,0.95)","color_btnborder":"#00ff8c","color_btnhovborder":"#00ff8c","color_btnbg":"","color_btnhovbg":"#00ff8c","_background_background":"classic","_background_image":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/banner.jpg","id":14},"typography_titleone_typography":"custom","typography_titleone_font_family":"Poppins","typography_titleone_font_weight":"300","typography_titletwo_typography":"custom","typography_titletwo_font_family":"Poppins","typography_titletwo_font_weight":"600","_element_id":"header-section"},"elements":[],"widgetType":"datarc-banner"}],"isInner":false}],"isInner":false},{"id":"85854d4","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"8a20433","elType":"column","settings":{"_column_size":100},"elements":[{"id":"238c17a","elType":"widget","settings":{"aboutus_headingsubtile":"ABOUT OUR DIGITAL AGENCY","aboutus_headingshortdesc":"<h3>Plantronics with its GN Netcom\u00a0<b>wireless headset<\/b>\u00a0creates the next generation of wireless headset and other products such as wireless amplifiers, and\u00a0<b>wireless headset<\/b>\u00a0telephone.<\/h3>","aboutus":[{"label":"ADDICTION WHIT GAMBLING","iconimg":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/s1.jpg","id":16},"desc":"It is a good idea to think of your PC as an office. It stores files, programs, pictures. This can be compared to an actual office\u2019s files","btnurl":"#","_id":"6885668"},{"label":"HEADSET NO LONGER WIRED","iconimg":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/s2.jpg","id":19},"desc":"It is a good idea to think of your PC as an office. It stores files, programs, pictures. This can be compared to an actual office\u2019s files","btnurl":"#","_id":"d8f88d8"},{"label":"LIFE ADVICE LOOKING AT WINDOW","iconimg":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/s3.jpg","id":18},"desc":"It is a good idea to think of your PC as an office. It stores files, programs, pictures. This can be compared to an actual office\u2019s files","btnurl":"#","_id":"282c3dd"}]},"elements":[],"widgetType":"datarc-aboutus"}],"isInner":false}],"isInner":false},{"id":"e86f9a2","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"e29585e","elType":"column","settings":{"_column_size":100},"elements":[{"id":"bbafe88","elType":"widget","settings":{"services_subtitle":"WHY CHOOSE US","services_title":"We ensure perfect quality Digital  products for you","services":[{"label":"Unique Design","icontype":"icon","fonticon":"fa fa-star-o","desc":"Most people who work in an office environment, buy computer products, or have","_id":"51274bb"},{"label":"Appropriate UX","icontype":"icon","fonticon":"fa fa-magic","desc":"Most people who work in an office environment, buy computer products, or have","_id":"c03645f"},{"label":"Perfect Visual","icontype":"icon","fonticon":"fa fa-sun-o","desc":"Most people who work in an office environment, buy computer products, or have","_id":"e56cdaa"},{"label":"Different Layout","icontype":"icon","fonticon":"fa fa-database","desc":"Most people who work in an office environment, buy computer products, or have","_id":"35df2ce"}],"color_hovservicesfonticon":"#ffffff","_background_background":"classic","_background_color":"#222222","_element_id":"service-section"},"elements":[],"widgetType":"datarc-services"}],"isInner":false}],"isInner":false},{"id":"da049d3","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"2d35c2f","elType":"column","settings":{"_column_size":100},"elements":[{"id":"f5dd0b3","elType":"widget","settings":{"progressbar":[{"label":"WEB DESIGN","percentage":"80","_id":"5d0f55b"},{"label":"UI\/UX DESIGN","percentage":"75","_id":"cdae3a7"},{"label":"MOBILE APP","percentage":"60","_id":"746106b"},{"label":"WEB DEVELOPMENT","percentage":"90","_id":"f3554f5"}],"_margin":{"unit":"px","top":"160","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[],"widgetType":"datarc-progress"}],"isInner":false}],"isInner":false},{"id":"3181a80","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"10b25ed","elType":"column","settings":{"_column_size":100},"elements":[{"id":"6cf1cb2","elType":"widget","settings":{"subtitle":"REMARKABLE WORKS","title":"We have gained reliability  to serve you best","limit":"20","_element_id":"portfolio-section"},"elements":[],"widgetType":"datarc-portfolio"}],"isInner":false}],"isInner":false},{"id":"4da5556","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"367d5b2","elType":"column","settings":{"_column_size":100},"elements":[{"id":"244ac9d","elType":"widget","settings":{"sect_title":"Team work builds trust and  trust builds growth","sect_subtitle":"CREATIVE PEOPLE","teamslider":[{"label":"ETHEL DAVIS","desig":"Managing Director (Sales)","desc":"This article is floated online with an aim to help you find the best dvd printing solution. Dvd","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/t1.jpg","id":28},"fburl":{"url":"#"},"twiturl":{"url":"#"},"pinturl":{"url":"#"},"driburl":{"url":"#"},"_id":"83647c4"},{"label":"RODNEY COOPER","desig":"Managing Director (Sales)","desc":"This article is floated online with an aim to help you find the best dvd printing solution. Dvd","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/t2.jpg","id":31},"fburl":{"url":"#"},"twiturl":{"url":"#"},"pinturl":{"url":"#"},"driburl":{"url":"#"},"_id":"d8f3990"},{"label":"DORA WALKER","desig":"Managing Director (Sales)","desc":"This article is floated online with an aim to help you find the best dvd printing solution. Dvd","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/t3.jpg","id":30},"fburl":{"url":"#"},"twiturl":{"url":"#"},"pinturl":{"url":"#"},"driburl":{"url":"#"},"_id":"a7085a1"},{"label":"LENA KELLER","desig":"Managing Director (Sales)","desc":"This article is floated online with an aim to help you find the best dvd printing solution. Dvd","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/t4.jpg","id":29},"fburl":{"url":"#"},"twiturl":{"url":"#"},"pinturl":{"url":"#"},"driburl":{"url":"#"},"_id":"8303b8e"}],"color_discopt":"#ffffff","_element_id":"team-section"},"elements":[],"widgetType":"datarc-team-member"}],"isInner":false}],"isInner":false},{"id":"8c1de5f","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"7254569","elType":"column","settings":{"_column_size":100},"elements":[{"id":"5aab6ae","elType":"widget","settings":{"fewwords_subtitle":"WE CREATE TOP CLASS DESIGNS","fewwords_title":"A DIGITAL STUDIO CRAFTING  TECH BUSINESS","fewwords_desc":"<p>Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical interface of the versions, therefore it has remained Microsoft\u2019s product. Although, Lycoris, Red Hat, Mandrake,<\/p>","fewwords_btnlabel":"Start Business","fewwords_btnurl":{"url":"#","is_external":"","nofollow":""},"rsbg_background":"classic","rsbg_image":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/studio-bg.jpg","id":35}},"elements":[],"widgetType":"datarc-few-words"}],"isInner":false}],"isInner":false},{"id":"0632991","elType":"section","settings":{"gap":"no","content_width":{"unit":"px","size":585}},"elements":[{"id":"012eda5","elType":"column","settings":{"_column_size":100},"elements":[{"id":"d9673c7","elType":"widget","settings":{"sh_sectiontitle":"Team work builds trust and trust builds growth","sh_sectionsubtitle":"CREATIVE PEOPLE","_margin":{"unit":"px","top":"155","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[],"widgetType":"datarc-sh"}],"isInner":false}],"isInner":false},{"id":"492873b","elType":"section","settings":{"structure":"30","margin":{"unit":"px","top":"0","right":0,"bottom":"160","left":0,"isLinked":false}},"elements":[{"id":"83eb4f7","elType":"column","settings":{"_column_size":33,"_inline_size":null},"elements":[{"id":"4317a04","elType":"widget","settings":{"pricing_title":"STANDARD","pricing_icon":"fa fa-shirtsinbulk","pricing_price":"\u00a3199","pricing_duration":"Per month","pricingfeatures":[{"label":"2.5 GB Photos","_id":"c957fbe"},{"label":"Secure Online Transfer","_id":"56730be"},{"label":"2.5 GB Photos","_id":"6513c4a"},{"label":"Unlimited Styles","_id":"506dbd8"},{"label":"Customer Service","_id":"1841165"},{"label":"Manual Backup","_id":"0675417"}],"pricing_btnlabel":"Purchase","pricing_btnurl":"#"},"elements":[],"widgetType":"datarc-pricing"}],"isInner":false},{"id":"363be51","elType":"column","settings":{"_column_size":33,"_inline_size":null},"elements":[{"id":"f859860","elType":"widget","settings":{"pricing_title":"BUSINESS","pricing_icon":"fa fa-shirtsinbulk","pricing_price":"\u00a3399","pricing_duration":"Per month","pricingfeatures":[{"label":"2.5 GB Photos","_id":"c957fbe"},{"label":"Secure Online Transfer","_id":"56730be"},{"label":"2.5 GB Photos","_id":"6513c4a"},{"label":"Unlimited Styles","_id":"506dbd8"},{"label":"Customer Service","_id":"1841165"},{"label":"Manual Backup","_id":"0675417"}],"pricing_btnlabel":"Purchase","pricing_btnurl":"#"},"elements":[],"widgetType":"datarc-pricing"}],"isInner":false},{"id":"255cced","elType":"column","settings":{"_column_size":33,"_inline_size":null},"elements":[{"id":"b1097d8","elType":"widget","settings":{"pricing_title":"ULTIMATE","pricing_icon":"fa fa-building-o","pricing_price":"\u00a3499","pricing_duration":"Per month","pricingfeatures":[{"label":"2.5 GB Photos","_id":"c957fbe"},{"label":"Secure Online Transfer","_id":"56730be"},{"label":"2.5 GB Photos","_id":"6513c4a"},{"label":"Unlimited Styles","_id":"506dbd8"},{"label":"Customer Service","_id":"1841165"},{"label":"Manual Backup","_id":"0675417"}],"pricing_btnlabel":"Purchase","pricing_btnurl":"#"},"elements":[],"widgetType":"datarc-pricing"}],"isInner":false}],"isInner":false},{"id":"be96027","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"316d975","elType":"column","settings":{"_column_size":100},"elements":[{"id":"fedce31","elType":"widget","settings":{"datarctestimonial":[{"label":"Mark Alviro Wiens","designation":"CEO at Google","quotetext":"Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit.","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/ts1.png","id":42},"_id":"375e316"},{"label":"Mark Alviro Wiens","designation":"CEO at Google","quotetext":"Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit.","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/ts1.png","id":42},"_id":"e31ac96"},{"label":"Mark Alviro Wiens","designation":"CEO at Google","quotetext":"Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit.","_id":"4364c08","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/ts2.png","id":41}},{"label":"Mark Alviro Wiens","designation":"CEO at Google","quotetext":"Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit.","_id":"24ed41e","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/ts2.png","id":41}},{"label":"Mark Alviro Wiens","designation":"CEO at Google","quotetext":"Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit.","_id":"96dddec","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/ts3.png","id":40}},{"label":"Mark Alviro Wiens","designation":"CEO at Google","quotetext":"Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit.","_id":"68b0dcf","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/ts3.png","id":40}}],"_background_background":"classic","_background_color":"#f9f9ff"},"elements":[],"widgetType":"datarc-testimonial"}],"isInner":false}],"isInner":false},{"id":"39a59b0","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"363be82","elType":"column","settings":{"_column_size":100},"elements":[{"id":"2c4eb49","elType":"widget","settings":{"blog_sectiontitle":"Publish what you want to  not requires social","blog_sectionsubtitle":"LATEST FROM BLOG","blog_limit":"4","_element_id":"blog-section","_margin":{"unit":"px","top":"160","right":"0","bottom":"160","left":"0","isLinked":false}},"elements":[],"widgetType":"datarc-blog"}],"isInner":false}],"isInner":false},{"id":"898faec","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"c6160eb","elType":"column","settings":{"_column_size":100},"elements":[{"id":"3a1b3df","elType":"widget","settings":{"contact_sectiontitle":"Publish what you want to  not requires social","contact_sectionsubtitle":"LATEST FROM BLOG","contact_shortinfo":"<p>Dramatically reintermediate effective applications after high-payoff core competencies. Authoritatively optimize collaborative benefits for error-free communities. Dramatically reintermediate effective applications after high-payoff core competencies. Authoritatively optimize collaborative benefits for error-free communities.<\/p>","contact_addressonetitle":"PHYSICAL ADDRESS","contact_addressone":"<p>Emperor Publishing,<br \/>56\/8, bir uttam qazi nuruzzaman\u00a0<br \/>road, Dhaka - 1205<\/p>","contact_addresstwotitle":"WEB CONTACT","contact_addresstwo":"<p><a href=\"tel:0000\">012 (88) 017 25 656 565<\/a>\u00a0<br \/><a href=\"tel:0000\">012 (88) 017 25 656 565<\/a><\/p>","contact_formshortcode":"[contact-form-7 id=\"8\" title=\"Contact form 1\"]","color_btntext":"#777777","color_border":"#222222","_background_background":"classic","_background_color":"#f9f9ff","_element_id":"contact-section"},"elements":[],"widgetType":"datarc-contact"}],"isInner":false}],"isInner":false},{"id":"86eafbf","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"9856239","elType":"column","settings":{"_column_size":100},"elements":[{"id":"c2da6a6","elType":"widget","settings":{"title":"Are you Ready to have a Talk?","btnlabel":"Explore Services","btnurl":{"url":"#","is_external":"","nofollow":""},"_background_background":"classic","_background_color":"#3d4191"},"elements":[],"widgetType":"datarc-cta"}],"isInner":false}],"isInner":false}]]]></wp:meta_value>
+			<wp:meta_value><![CDATA[[{"id":"36e7e92","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"e30a2c3","elType":"column","settings":{"_column_size":100},"elements":[{"id":"dad86b3","elType":"widget","settings":{"banner_titleone":"WE WORK HARD, WE RESULT PERFECT","banner_titletwo":"CRAFTING DIGITAL AGENCY EXPERIENCES","banner_btnlabel":"Explore Us","banner_btnurl":{"url":"#","is_external":"","nofollow":""},"banneroverlay_background":"gradient","banneroverlay_color":"rgba(60,64,143,0.95)","banneroverlay_color_b":"rgba(91,97,207,0.95)","_background_background":"classic","_background_image":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/banner.jpg","id":14},"typography_titleone_typography":"custom","typography_titleone_font_family":"Poppins","typography_titleone_font_weight":"300","typography_titletwo_typography":"custom","typography_titletwo_font_family":"Poppins","typography_titletwo_font_weight":"600","_element_id":"header-section"},"elements":[],"widgetType":"datarc-banner"}],"isInner":false}],"isInner":false},{"id":"85854d4","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"8a20433","elType":"column","settings":{"_column_size":100},"elements":[{"id":"238c17a","elType":"widget","settings":{"aboutus_headingsubtile":"ABOUT OUR DIGITAL AGENCY","aboutus_headingshortdesc":"<h3>Plantronics with its GN Netcom\u00a0<b>wireless headset<\/b>\u00a0creates the next generation of wireless headset and other products such as wireless amplifiers, and\u00a0<b>wireless headset<\/b>\u00a0telephone.<\/h3>","aboutus":[{"label":"ADDICTION WHIT GAMBLING","iconimg":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/s1.jpg","id":16},"desc":"It is a good idea to think of your PC as an office. It stores files, programs, pictures. This can be compared to an actual office\u2019s files","btnurl":"#","_id":"6885668"},{"label":"HEADSET NO LONGER WIRED","iconimg":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/s2.jpg","id":19},"desc":"It is a good idea to think of your PC as an office. It stores files, programs, pictures. This can be compared to an actual office\u2019s files","btnurl":"#","_id":"d8f88d8"},{"label":"LIFE ADVICE LOOKING AT WINDOW","iconimg":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/s3.jpg","id":18},"desc":"It is a good idea to think of your PC as an office. It stores files, programs, pictures. This can be compared to an actual office\u2019s files","btnurl":"#","_id":"282c3dd"}]},"elements":[],"widgetType":"datarc-aboutus"}],"isInner":false}],"isInner":false},{"id":"e86f9a2","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"e29585e","elType":"column","settings":{"_column_size":100},"elements":[{"id":"bbafe88","elType":"widget","settings":{"services_subtitle":"WHY CHOOSE US","services_title":"We ensure perfect quality Digital  products for you","services":[{"label":"Unique Design","icontype":"icon","fonticon":"fa fa-star-o","desc":"Most people who work in an office environment, buy computer products, or have","_id":"51274bb"},{"label":"Appropriate UX","icontype":"icon","fonticon":"fa fa-magic","desc":"Most people who work in an office environment, buy computer products, or have","_id":"c03645f"},{"label":"Perfect Visual","icontype":"icon","fonticon":"fa fa-sun-o","desc":"Most people who work in an office environment, buy computer products, or have","_id":"e56cdaa"},{"label":"Different Layout","icontype":"icon","fonticon":"fa fa-database","desc":"Most people who work in an office environment, buy computer products, or have","_id":"35df2ce"}],"color_hovservicesfonticon":"#ffffff","_background_background":"classic","_background_color":"#222222","_element_id":"service-section"},"elements":[],"widgetType":"datarc-services"}],"isInner":false}],"isInner":false},{"id":"da049d3","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"2d35c2f","elType":"column","settings":{"_column_size":100},"elements":[{"id":"f5dd0b3","elType":"widget","settings":{"progressbar":[{"label":"WEB DESIGN","percentage":"80","_id":"5d0f55b"},{"label":"UI\/UX DESIGN","percentage":"75","_id":"cdae3a7"},{"label":"MOBILE APP","percentage":"60","_id":"746106b"},{"label":"WEB DEVELOPMENT","percentage":"90","_id":"f3554f5"}],"_margin":{"unit":"px","top":"160","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[],"widgetType":"datarc-progress"}],"isInner":false}],"isInner":false},{"id":"3181a80","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"10b25ed","elType":"column","settings":{"_column_size":100},"elements":[{"id":"6cf1cb2","elType":"widget","settings":{"subtitle":"REMARKABLE WORKS","title":"We have gained reliability  to serve you best","limit":"20","_element_id":"portfolio-section","itemsnumber":8,"portfolios_rept":[{"label":"Categories","title":"CREATIVE TANGERINE","sub-title":"Image Manipulation","sub-title-url":"#","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/c6.jpg","id":214},"_id":"169bbee"},{"label":"Categories","title":"CREATIVE TANGERINE","sub-title":"Image Manipulation","sub-title-url":"#","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/c3.jpg","id":221},"_id":"a2a985f"},{"label":"Branding","title":"CREATIVE TANGERINE","sub-title":"Image Manipulation","sub-title-url":"#","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/c2.jpg","id":223},"_id":"7398b23"},{"label":"Branding","title":"CREATIVE TANGERINE","sub-title":"Image Manipulation","sub-title-url":"#","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/c5.jpg","id":219},"_id":"b3e3266"},{"label":"Image Manipulation","title":"CREATIVE TANGERINE","sub-title":"Image Manipulation","sub-title-url":"#","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/c5.jpg","id":219},"_id":"68378de"},{"label":"Image Manipulation","title":"CREATIVE TANGERINE","sub-title":"Image Manipulation","sub-title-url":"#","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/c4.jpg","id":217},"_id":"ec62ec1"},{"label":"Creative Work","title":"CREATIVE TANGERINE","sub-title":"Image Manipulation","sub-title-url":"#","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/c7.jpg","id":225},"_id":"a79afa1"},{"label":"Creative Work","title":"CREATIVE TANGERINE","sub-title":"Image Manipulation","sub-title-url":"#","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/c6.jpg","id":214},"_id":"81a16c7"}],"portfolio_overlaytextcolor":"#ffffff"},"elements":[],"widgetType":"datarc-portfolio"}],"isInner":false}],"isInner":false},{"id":"4da5556","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"367d5b2","elType":"column","settings":{"_column_size":100},"elements":[{"id":"244ac9d","elType":"widget","settings":{"sect_title":"Team work builds trust and  trust builds growth","sect_subtitle":"CREATIVE PEOPLE","teamslider":[{"label":"ETHEL DAVIS","desig":"Managing Director (Sales)","desc":"This article is floated online with an aim to help you find the best dvd printing solution. Dvd","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/t1.jpg","id":28},"fburl":{"url":"#"},"twiturl":{"url":"#"},"pinturl":{"url":"#"},"driburl":{"url":"#"},"_id":"83647c4"},{"label":"RODNEY COOPER","desig":"Managing Director (Sales)","desc":"This article is floated online with an aim to help you find the best dvd printing solution. Dvd","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/t2.jpg","id":31},"fburl":{"url":"#"},"twiturl":{"url":"#"},"pinturl":{"url":"#"},"driburl":{"url":"#"},"_id":"d8f3990"},{"label":"DORA WALKER","desig":"Managing Director (Sales)","desc":"This article is floated online with an aim to help you find the best dvd printing solution. Dvd","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/t3.jpg","id":30},"fburl":{"url":"#"},"twiturl":{"url":"#"},"pinturl":{"url":"#"},"driburl":{"url":"#"},"_id":"a7085a1"},{"label":"LENA KELLER","desig":"Managing Director (Sales)","desc":"This article is floated online with an aim to help you find the best dvd printing solution. Dvd","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/t4.jpg","id":29},"fburl":{"url":"#"},"twiturl":{"url":"#"},"pinturl":{"url":"#"},"driburl":{"url":"#"},"_id":"8303b8e"}],"color_discopt":"#ffffff","_element_id":"team-section"},"elements":[],"widgetType":"datarc-team-member"}],"isInner":false}],"isInner":false},{"id":"8c1de5f","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"7254569","elType":"column","settings":{"_column_size":100},"elements":[{"id":"5aab6ae","elType":"widget","settings":{"fewwords_subtitle":"WE CREATE TOP CLASS DESIGNS","fewwords_title":"A DIGITAL STUDIO CRAFTING  TECH BUSINESS","fewwords_desc":"<p>Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical interface of the versions, therefore it has remained Microsoft\u2019s product. Although, Lycoris, Red Hat, Mandrake,<\/p>","fewwords_btnlabel":"Start Business","fewwords_btnurl":{"url":"#","is_external":"","nofollow":""},"rsbg_background":"classic","rsbg_image":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/studio-bg.jpg","id":35}},"elements":[],"widgetType":"datarc-few-words"}],"isInner":false}],"isInner":false},{"id":"0632991","elType":"section","settings":{"gap":"no","content_width":{"unit":"px","size":585}},"elements":[{"id":"012eda5","elType":"column","settings":{"_column_size":100},"elements":[{"id":"d9673c7","elType":"widget","settings":{"sh_sectiontitle":"Team work builds trust and trust builds growth","sh_sectionsubtitle":"CREATIVE PEOPLE","_margin":{"unit":"px","top":"155","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[],"widgetType":"datarc-sh"}],"isInner":false}],"isInner":false},{"id":"492873b","elType":"section","settings":{"structure":"30","margin":{"unit":"px","top":"0","right":0,"bottom":"160","left":0,"isLinked":false}},"elements":[{"id":"83eb4f7","elType":"column","settings":{"_column_size":33,"_inline_size":null},"elements":[{"id":"4317a04","elType":"widget","settings":{"pricing_title":"STANDARD","pricing_icon":"fa fa-shirtsinbulk","pricing_price":"\u00a3199","pricing_duration":"Per month","pricingfeatures":[{"label":"2.5 GB Photos","_id":"c957fbe"},{"label":"Secure Online Transfer","_id":"56730be"},{"label":"2.5 GB Photos","_id":"6513c4a"},{"label":"Unlimited Styles","_id":"506dbd8"},{"label":"Customer Service","_id":"1841165"},{"label":"Manual Backup","_id":"0675417"}],"pricing_btnlabel":"Purchase","pricing_btnurl":"#"},"elements":[],"widgetType":"datarc-pricing"}],"isInner":false},{"id":"363be51","elType":"column","settings":{"_column_size":33,"_inline_size":null},"elements":[{"id":"f859860","elType":"widget","settings":{"pricing_title":"BUSINESS","pricing_icon":"fa fa-shirtsinbulk","pricing_price":"\u00a3399","pricing_duration":"Per month","pricingfeatures":[{"label":"2.5 GB Photos","_id":"c957fbe"},{"label":"Secure Online Transfer","_id":"56730be"},{"label":"2.5 GB Photos","_id":"6513c4a"},{"label":"Unlimited Styles","_id":"506dbd8"},{"label":"Customer Service","_id":"1841165"},{"label":"Manual Backup","_id":"0675417"}],"pricing_btnlabel":"Purchase","pricing_btnurl":"#"},"elements":[],"widgetType":"datarc-pricing"}],"isInner":false},{"id":"255cced","elType":"column","settings":{"_column_size":33,"_inline_size":null},"elements":[{"id":"b1097d8","elType":"widget","settings":{"pricing_title":"ULTIMATE","pricing_icon":"fa fa-building-o","pricing_price":"\u00a3499","pricing_duration":"Per month","pricingfeatures":[{"label":"2.5 GB Photos","_id":"c957fbe"},{"label":"Secure Online Transfer","_id":"56730be"},{"label":"2.5 GB Photos","_id":"6513c4a"},{"label":"Unlimited Styles","_id":"506dbd8"},{"label":"Customer Service","_id":"1841165"},{"label":"Manual Backup","_id":"0675417"}],"pricing_btnlabel":"Purchase","pricing_btnurl":"#"},"elements":[],"widgetType":"datarc-pricing"}],"isInner":false}],"isInner":false},{"id":"be96027","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"316d975","elType":"column","settings":{"_column_size":100},"elements":[{"id":"fedce31","elType":"widget","settings":{"datarctestimonial":[{"label":"Mark Alviro Wiens","designation":"CEO at Google","quotetext":"Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit.","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/ts1.png","id":42},"_id":"375e316"},{"label":"Mark Alviro Wiens","designation":"CEO at Google","quotetext":"Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit.","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/ts1.png","id":42},"_id":"e31ac96"},{"label":"Mark Alviro Wiens","designation":"CEO at Google","quotetext":"Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit.","_id":"4364c08","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/ts2.png","id":41}},{"label":"Mark Alviro Wiens","designation":"CEO at Google","quotetext":"Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit.","_id":"24ed41e","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/ts2.png","id":41}},{"label":"Mark Alviro Wiens","designation":"CEO at Google","quotetext":"Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit.","_id":"96dddec","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/ts3.png","id":40}},{"label":"Mark Alviro Wiens","designation":"CEO at Google","quotetext":"Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit.","_id":"68b0dcf","img":{"url":"http:\/\/spondan.com\/datarc\/wp-content\/uploads\/2018\/09\/ts3.png","id":40}}],"_background_background":"classic","_background_color":"#f9f9ff"},"elements":[],"widgetType":"datarc-testimonial"}],"isInner":false}],"isInner":false},{"id":"39a59b0","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"363be82","elType":"column","settings":{"_column_size":100},"elements":[{"id":"2c4eb49","elType":"widget","settings":{"blog_sectiontitle":"Publish what you want to  not requires social","blog_sectionsubtitle":"LATEST FROM BLOG","blog_limit":"4","_element_id":"blog-section","_margin":{"unit":"px","top":"160","right":"0","bottom":"160","left":"0","isLinked":false}},"elements":[],"widgetType":"datarc-blog"}],"isInner":false}],"isInner":false},{"id":"898faec","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"c6160eb","elType":"column","settings":{"_column_size":100},"elements":[{"id":"3a1b3df","elType":"widget","settings":{"contact_sectiontitle":"Publish what you want to  not requires social","contact_sectionsubtitle":"LATEST FROM BLOG","contact_shortinfo":"<p>Dramatically reintermediate effective applications after high-payoff core competencies. Authoritatively optimize collaborative benefits for error-free communities. Dramatically reintermediate effective applications after high-payoff core competencies. Authoritatively optimize collaborative benefits for error-free communities.<\/p>","contact_addressonetitle":"PHYSICAL ADDRESS","contact_addressone":"<p>Emperor Publishing,<br \/>56\/8, bir uttam qazi nuruzzaman\u00a0<br \/>road, Dhaka - 1205<\/p>","contact_addresstwotitle":"WEB CONTACT","contact_addresstwo":"<p><a href=\"tel:0000\">012 (88) 017 25 656 565<\/a>\u00a0<br \/><a href=\"tel:0000\">012 (88) 017 25 656 565<\/a><\/p>","contact_formshortcode":"[contact-form-7 id=\"8\" title=\"Contact form 1\"]","color_btntext":"#777777","color_border":"#222222","_background_background":"classic","_background_color":"#f9f9ff","_element_id":"contact-section"},"elements":[],"widgetType":"datarc-contact"}],"isInner":false}],"isInner":false},{"id":"86eafbf","elType":"section","settings":{"layout":"full_width","gap":"no"},"elements":[{"id":"9856239","elType":"column","settings":{"_column_size":100},"elements":[{"id":"c2da6a6","elType":"widget","settings":{"title":"Are you Ready to have a Talk?","btnlabel":"Explore Services","btnurl":{"url":"#","is_external":"","nofollow":""},"_background_background":"classic","_background_color":"#3d4191"},"elements":[],"widgetType":"datarc-cta"}],"isInner":false}],"isInner":false}]]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
@@ -2053,7 +2106,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[193]]></wp:meta_value>
+			<wp:meta_value><![CDATA[257]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
@@ -2090,7 +2143,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[191]]></wp:meta_value>
+			<wp:meta_value><![CDATA[256]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
@@ -2127,7 +2180,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[189]]></wp:meta_value>
+			<wp:meta_value><![CDATA[255]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
@@ -2162,226 +2215,6 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
 			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>SERVICES</title>
-		<link>http://spondan.com/datarc/2018/09/04/services/</link>
-		<pubDate>Tue, 04 Sep 2018 09:54:01 +0000</pubDate>
-		<dc:creator><![CDATA[spndev]]></dc:creator>
-		<guid isPermaLink="false">http://spondan.com/datarc/?p=239</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>239</wp:post_id>
-		<wp:post_date><![CDATA[2018-09-04 09:54:01]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-09-04 09:54:01]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[services]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="one-page-menu"><![CDATA[One Page Menu]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[239]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[#service-section]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>HOME</title>
-		<link>http://spondan.com/datarc/2018/09/04/home/</link>
-		<pubDate>Tue, 04 Sep 2018 09:54:01 +0000</pubDate>
-		<dc:creator><![CDATA[spndev]]></dc:creator>
-		<guid isPermaLink="false">http://spondan.com/datarc/?p=240</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>240</wp:post_id>
-		<wp:post_date><![CDATA[2018-09-04 09:54:01]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-09-04 09:54:01]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[home]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="one-page-menu"><![CDATA[One Page Menu]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[240]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[#header-section]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>http://spondan.com/datarc/2018/09/04/249/</link>
-		<pubDate>Tue, 04 Sep 2018 10:08:57 +0000</pubDate>
-		<dc:creator><![CDATA[spndev]]></dc:creator>
-		<guid isPermaLink="false">http://spondan.com/datarc/?p=249</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>249</wp:post_id>
-		<wp:post_date><![CDATA[2018-09-04 10:08:57]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-09-04 10:08:57]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[249]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[10]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>http://spondan.com/datarc/2018/09/04/250/</link>
-		<pubDate>Tue, 04 Sep 2018 10:08:57 +0000</pubDate>
-		<dc:creator><![CDATA[spndev]]></dc:creator>
-		<guid isPermaLink="false">http://spondan.com/datarc/?p=250</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>250</wp:post_id>
-		<wp:post_date><![CDATA[2018-09-04 10:08:57]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-09-04 10:08:57]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[250]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[233]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>

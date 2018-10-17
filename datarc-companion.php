@@ -3,7 +3,7 @@
  * Plugin Name:       Datarc Companion
  * Plugin URI:        https://colorlib.com/wp/themes/datarc/
  * Description:       Datarc Companion is a companion for Datarc theme.
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            Colorlib
  * Author URI:        https://colorlib.com/
  * License:           GPL-2.0+

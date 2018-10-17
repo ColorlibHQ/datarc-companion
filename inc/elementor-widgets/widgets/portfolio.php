@@ -71,16 +71,67 @@ class Datarc_Portfolio extends Widget_Base {
             ]
         );
         $this->add_control(
-            'limit',
+            'itemsnumber',
             [
-                'label'         => esc_html__( 'Portfolio Limit', 'datarc-companion' ),
-                'type'          => Controls_Manager::TEXT,
-                'label_block'   => true,
-                'default'       => 4
+                'label' => esc_html__( 'Items per section', 'datarc-companion' ),
+                'type' => Controls_Manager::NUMBER,
+                'label_block' => true
+            ]
+        );
+        $this->add_control(
+            'loadbtnswitch',
+            [
+                'label' => esc_html__( 'Load More Button', 'datarc-companion' ),
+                'type' => Controls_Manager::SWITCHER,
             ]
         );
 		$this->end_controls_section(); // End portfolio content
 
+        // ----------------------------------------  Portfolio Content ------------------------------
+
+        $this->start_controls_section(
+            'portfolios',
+            [
+                'label' => __( 'Portfolio', 'datarc-companion' ),
+            ]
+        );
+
+        $this->add_control(
+            'portfolios_rept', [
+                'label'         => __( 'Create Portfolios', 'datarc-companion' ),
+                'type'          => Controls_Manager::REPEATER,
+                'title_field'   => '{{{ label }}}',
+                'fields' => [
+                    [
+                        'name'        => 'label',
+                        'label'       => __( 'Tag', 'datarc-companion' ),
+                        'type'        => Controls_Manager::TEXT,
+                        'default'     => esc_html__( 'Web Template', 'datarc-companion' )
+                    ],
+                    [
+                        'name'        => 'title',
+                        'label'       => __( 'Title', 'datarc-companion' ),
+                        'type'        => Controls_Manager::TEXT,
+                        'label_block' => true,
+                        'default'     => esc_html__( 'DFR Corp. Branding', 'datarc-companion' )
+                    ],
+                    [
+                        'name'        => 'sub-title',
+                        'label'       => __( 'Sub Title', 'datarc-companion' ),
+                        'type'        => Controls_Manager::TEXT,
+                        'label_block' => true,
+                        'default'     => esc_html__( 'Brand Identity', 'datarc-companion' )
+                    ],
+                    [
+                        'name'        => 'img',
+                        'label'       => __( 'Image', 'datarc-companion' ),
+                        'type'        => Controls_Manager::MEDIA
+                    ]
+                ],
+            ]
+        );
+
+        $this->end_controls_section(); // End portfolio content
 
         //------------------------------ Style title ------------------------------
         $this->start_controls_section(
@@ -212,7 +263,120 @@ class Datarc_Portfolio extends Widget_Base {
         $subtitle = $settings['subtitle'];
     }
 
-        echo do_shortcode( '[datarcfolio title="'.esc_html( $title ).'" subtitle="'.esc_html( $subtitle ).'" limit="'.esc_attr( $settings['limit'] ).'"]' );
+    $portfoliosItems = $settings['portfolios_rept']; 
+
+    // Total items count
+    $totalItems = count( $portfoliosItems );
+
+    // localize
+    wp_localize_script(
+        'datarc-loadmore-script',
+        'portfolioloadajax',
+        array(
+            'action_url' => admin_url( 'admin-ajax.php' ),
+            'postNumber' => esc_html( $settings['itemsnumber'] ),
+            'elsettings' => $portfoliosItems,
+            'totalitems' => $totalItems
+        )
+    );
+
+    ?>
+    <section id="protfolio" class="section-full">
+        <div class="container">
+            <?php 
+
+            datarc_section_heading( $title, $subtitle );
+          
+            
+            // Filter
+            if( is_array( $portfoliosItems ) && $totalItems > 0 ):
+            ?>
+            <div class="controls d-flex flex-wrap justify-content-center">
+                    <a class="filter active" data-filter="all"><?php esc_html_e( 'All', 'datarc-companion' ); ?></a>
+
+
+                    <?php 
+                    $tags = array_column( $portfoliosItems, 'label' );
+
+                    $getTags = array_unique( $tags );
+
+                    $tabs = '';
+                    foreach( $getTags as $tag ) {
+
+                        $tagforfilter = sanitize_title_with_dashes( $tag );
+
+                        $tabs .= '<a class="filter" data-filter=".'.esc_attr( $tagforfilter ).'">'.esc_html( $tag ).'</a>';
+                    }
+
+                    echo $tabs;
+                    ?>
+            </div>
+            <?php 
+            endif;
+            ?>
+        </div>
+
+        <div id="filter-content" class="row no-gutters mt-70">
+            <?php 
+          
+            if( !empty( $portfoliosItems ) ):
+                $i = 0;
+                foreach( $portfoliosItems as $val ):
+
+                $tagclass = sanitize_title_with_dashes( $val['label'] );
+                $i++;
+         
+                $imgUrl = !empty( $val['img']['url'] ) ? $val['img']['url'] : '';
+
+            ?>
+            <div class="mix <?php echo esc_attr( $tagclass ); ?> col-lg-3 col-md-4 col-sm-6 single-filter-content content-1" data-myorder="1" style="background-image: url( <?php echo esc_url( $imgUrl ); ?> )">
+                <div class="overlay overlay-bg-content d-flex align-items-center justify-content-center flex-column">
+                    <?php 
+                    if( !empty( $val['sub-title'] ) ){
+                        echo datarc_paragraph_tag(
+                            array(
+                                'text' => esc_html( $val['sub-title'] )
+                            )
+                        );
+                    }
+                    ?>
+                    <div class="line"></div>
+                    <?php 
+                    if( !empty( $val['title'] ) ){
+                        echo datarc_heading_tag(
+                            array(
+                                'tag'    => 'h5',
+                                'class'  => 'text-uppercase',
+                                'text'   => esc_html( $val['title'] )
+                            )
+                        );
+                    }
+                    ?>
+                </div>
+            </div>
+            <?php
+                if( !empty( $settings['itemsnumber'] ) ){
+
+                    if( $i == $settings['itemsnumber'] ){
+                        break;
+                    }
+                }
+                    endforeach;
+                endif;
+            ?>
+            <spn class="datarc-portfolio-load"></spn>
+        </div>
+            <?php 
+            if( !empty( $settings['loadbtnswitch'] ) && $totalItems > $settings['itemsnumber']  ):
+            ?>
+            <div class="col-12 text-center mt-100">
+                <a href="#" class="btn loadAjax datarc-btn primary-btn"><?php esc_html_e( 'Load More', 'datarc-companion' ); ?></a>
+            </div>
+            <?php 
+            endif;
+            ?>
+    </section>
+    <?php
 
     }
 	
